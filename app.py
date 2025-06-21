@@ -70,14 +70,14 @@ with st.sidebar:
     
     # Use quando em ambiente de desenvolvimento
     # # Campo para inserir a chave da API
-    api_key = st.text_input(
-        "Chave da API GEMINI",
-        type="password",
-        placeholder="Insira sua chave de API aqui"
-    )
+    # api_key = st.text_input(
+    #     "Chave da API GEMINI",
+    #     type="password",
+    #     placeholder="Insira sua chave de API aqui"
+    # )
     # Use quando em ambiente de produção
     # A chave de API será lida dos segredos do Streamlit
-    # api_key = st.secrets.get("GEMINI_API_KEY")
+    api_key = st.secrets.get("GEMINI_API_KEY")
 
     st.header("Fonte de Dados")
     
