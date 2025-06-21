@@ -65,7 +65,7 @@ Responsável por:
   - Gerar código para visualizações e gráficos.
 
 ## Estrutura de Arquivos
-
+```
 ├── dataset/
 │ ├── 202401_NFs_Cabecalho.csv
 │ └── 202401_NFs_Itens.csv
@@ -80,7 +80,7 @@ Responsável por:
 ├── app.py
 ├── requirements.txt
 └── README.md
-
+```
 
 ## Como Executar
 
